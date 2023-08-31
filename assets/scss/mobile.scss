@@ -1,0 +1,172 @@
+@import "~/assets/scss/variable";
+
+// media queries
+
+/*
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  //CSS
+  .about-us-section {
+    .about-us-content {
+      .luxury-section {
+        font-size: $font-34;
+        width: 578px;
+      }
+      .global-expertise-section {
+        width: 505px;
+      }
+      .experience-section {
+        .about-title-section {
+          font-size: $font-24;
+        }
+      }
+    }
+  }
+  .header-section {
+    .header-bg-section {
+      .header-menu-section {
+        width: 60%;
+      }
+    }
+  }
+  .crisalid-details-section {
+    .content-section {
+      margin: 420px auto 0;
+    }
+  }
+  .home-section {
+    background-position: center;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+  */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  //CSS
+  .about-us-section {
+    .about-us-content {
+      .luxury-section {
+        width: 710px;
+      }
+      .global-expertise-section {
+        width: 505px;
+      }
+    }
+  }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 414px to 736px
+    */
+@media (min-width: 414px) and (max-width: 736px) {
+  .crisalid-details-section {
+    .content-section {
+      margin: 0 auto 0;
+      position: absolute;
+      top: 55%;
+      transform: translateY(-50%);
+    }
+  }
+  .home-section {
+    background-position: center;
+  }
+}
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+    */
+@media (min-width: 320px) and (max-width: 480px) {
+  //CSS
+  .about-us-section {
+    .about-us-content {
+      .luxury-section {
+        font-size: $font-24;
+      }
+      .global-expertise-section {
+        font-size: $font-24;
+      }
+      .experience-section {
+        .about-title-section {
+          font-size: $font-20;
+        }
+      }
+    }
+  }
+  .service-section {
+    .service-content {
+      .service-details {
+        .service-title-section {
+          font-size: $font-34;
+        }
+      }
+    }
+  }
+  .crisalid-section {
+    font-size: $font-18;
+    a span {
+      width: 12px;
+      margin-top: -4px;
+      display: block;
+      border-bottom: 1.5px solid transparent;
+    }
+    .crisalid-logo {
+      width: 70px;
+    }
+  }
+  .crisalid-section {
+    font-size: $font-18;
+    .crisalid-home-section {
+      width: 70px;
+    }
+  }
+
+  .header-section {
+    .logo-section {
+      width: 100%;
+      transform: rotate(-2deg);
+    }
+    .header-bg-section {
+      .header-menu-section {
+        width: 80%;
+        padding: 10px;
+      }
+    }
+  }
+  .work-with-us-section {
+    .work-with-us-content {
+      .bg-overlay .work {
+        font-size: $font-38;
+      }
+    }
+  }
+  .crisalid-details-section {
+    .content-section {
+      margin: 0 auto 0;
+      position: absolute;
+      top: 55%;
+      transform: translateY(-50%);
+      .content .logo-content {
+        .content-logo-section {
+          width: 60px;
+        }
+      }
+    }
+  }
+  .home-section {
+    background-position: center;
+  }
+}
+
+//landscape
+@media only screen and (orientation: landscape) and (max-width: 768px) {
+  .crisalid-details-section {
+    .content-section {
+      margin: 70px auto 0;
+    }
+  }
+}
